@@ -2,7 +2,7 @@
   "name": "alban-care.github.io",
   "version": "1.0.0",
   "private": true,
-  "description": "alban-care.github.io",
+  "description": "Alban Caré - Développeur Web Full Stack - Open Full | Friendly Remote",
   "author": "Alban Caré",
   "keywords": [
     "gatsby"
@@ -12,11 +12,22 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
+    "@mdx-js/react": "^2.2.1",
+    "babel-plugin-styled-components": "^2.0.7",
     "gatsby": "^5.3.3",
+    "gatsby-plugin-image": "^3.3.2",
+    "gatsby-plugin-mdx": "^5.3.1",
+    "gatsby-plugin-sharp": "^5.3.2",
+    "gatsby-plugin-styled-components": "^6.3.0",
+    "gatsby-source-filesystem": "^5.3.1",
+    "gatsby-transformer-sharp": "^5.3.1",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.6"
   }
 }
