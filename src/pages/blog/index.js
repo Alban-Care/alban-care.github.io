@@ -1,15 +1,14 @@
-import * as React from 'react'
+import * as React from "react";
+import Layout from "../../components/layout.js";
 
 const BlogPage = () => {
-    return (
-        <main>
-            <h1>
-                Welcome blog page !
-            </h1>
-        </main>
-    )
-}
+  return (
+    <Layout>
+      <h1>Welcome blog page !</h1>
+    </Layout>
+  );
+};
 
-export default BlogPage
+export default BlogPage;
 
-export const Head = () => <title>Alban Caré - Dev blog</title>
+export const Head = () => <title>Alban Caré - Dev blog</title>;

@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   html {
@@ -17,6 +17,11 @@ const GlobalStyle = createGlobalStyle`
   html {
     scrollbar-width: thin;
   }
-`
 
-export default GlobalStyle
+  body {
+    background-color: #1a1b26;
+    color: #f1f1f1;
+  }
+`;
+
+export default GlobalStyle;
