@@ -16,18 +16,26 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "images",
-        path: "./src/images/",
+        name: "pages",
+        path: `${__dirname}/src/pages/`,
       },
-      __key: "images",
+      __key: "pages",
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "pages",
-        path: "./src/pages/",
+        name: "images",
+        path: `${__dirname}/src/images/`,
       },
-      __key: "pages",
+      __key: "images",
+    },    
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'content',
+        path: `${__dirname}/content/`,
+      },
+      __key: "content",
     },
   ],
 };
